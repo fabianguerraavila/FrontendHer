@@ -5,6 +5,7 @@ Ik heb in de loop van de weken mijn proces niet in de readme bijgehouden, ik was
 
 Wel heb ik m'n proces opgeslagen in mijn hoofd, dus ik zal het hieronder even samenvatten:
 
+<h1>Week 1 & 2</h1>
 De eerste 2 weken was het weer erg inkomen aangezien ik best een tijd niet gecodeerd had. Ik vondt het dan ook moeilijk een begin te maken omdat ik eerst helder in m'n hoofd wou hebben welke elementen ik waarvoor ging gebruiken. Het maken van een breakdownschets hielp daar erg bij.
 
 Na de tweede week had ik eindelijk het gevoel dat ik aan de slag kon en begon ik met de homepagina. Ik kwam langzamerhand weer in en het coderen ging steeds sneller. Maar toem liep ik tegen een probleem aan; het in en uit klappen van het menu. Dit probleem hield me week 4 & 5 bezig, en het stoorde me zo erg dat ik niet door wou gaan met de rest voor ik dit opgelost had. Wegens presentaties van Behavioural design waar ik ondertussen mee bezig was nam ik even pauze van het coderen.
