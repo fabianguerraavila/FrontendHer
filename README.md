@@ -19,3 +19,17 @@ In de vakantie ging ik verder en pas op de tweede of derde dag kwam ik er achter
 
 <h3>Week 6</h3>
 Ik had het gevoel alsof het moeilijkste werk gedaan was en dat bleek ook zo te zijn. Het enige waar ik de week na de vakantie nog een beetje moeite mee had was het grid opstellen aangezien ik dit vorig nog niet geleerd had. Maar na het kijken van een paar tutorials begreep ik het. Toen de site voor 90% op het origineel leek was ik tevreden. Hij is nog niet helemaal responsive maar dat komt omdat ik slim met mijn tijd om moet gaan, ik was/ben onderstussen ook nog bezig met het individuele deel van mijn project. Dus ik heb besloten om het voor de eerste beoordeling hierbij te laten en dan kan ik in de week er na verder met de mediaqueries.
+
+
+<h3>Week 7</h3>
+Het responsive maken van de site was toch iets meer werk dan ik had verwacht (denkwerk vooral). En omdat een aantal dingen verschillende display waardes hadden was het moeilijk om het samen er goed uit te laten zien. Wel kon ik grotendeels van de grid code afkijken bij de originele website via inspecteren. Toen alles gedaan was update ik de code op Github. Vervolgens heb ik de live pages aangezet maar hier deed zich nog een probleem voor, de afbeeldingen laadde niet. Ik had wat rondegezocht online en daar stond dat het waarschijnlijk te maken had met hoofdletters, maar toen ik dit aanpaste werkte het nog steeds niet dus besloot ik me erbij neer te leggen.
+
+<h3>Bronnen:</h3
+https://morioh.com/p/96ae54d49d81
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://www.w3schools.com/cssref/css_selectors.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector?retiredLocale=nl
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+  
+Meer had ik niet meer open staan maar ik heb ook een aantal hulpvolle tutorials op Youtube gekeken.
+
