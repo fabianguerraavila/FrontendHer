@@ -141,12 +141,6 @@ h3 {
  margin-bottom: 1em;
 }
 
-main>ul {
-    display: flex;
-    margin-left: -.8em;
-    margin-bottom: 3em;
-}
-
 main>ul>li {
     margin-right: .5em;
 }
@@ -155,11 +149,20 @@ main>ul>li:nth-of-type(2) {
     font-weight: bolder;
 }
 
-main>div>section {
+
+main>ul {
+    display: flex;
+    margin-left: -.8em;
+    margin-bottom: 3em;
+}
+
+/* aanpassen */
+
+main>div>article {
     line-height: normal;
 }
 
-main>div>section>h4 {
+main>div>article>h4 {
     margin-top: -.5em;
 }
 
@@ -173,7 +176,7 @@ footer {
 }
 
 footer ul {
-    margin-left: -2.7em;
+    margin-left: -2.7em;    
 }
 
 /* Krom kendama footer */
@@ -225,18 +228,106 @@ footer img {
 
 
 @media screen and (min-width: 768px) {
+    body {
+        font-size: .75rem;
+        line-height: 1rem;
+        height: fit-content;
+    }
+
+    header>li {
+        width: 227px;
+    }
+    
+    header>nav:first-of-type {
+        background-color: rgb(248, 250, 250);
+    }
+
     header nav:first-of-type ul {
         display: none;
     }
 
-    header nav:last-of-type {
-        display: flex;
-        margin-left: -2vh;
-        padding-top: 8vh;
+    header nav:last-of-type>ul>li:nth-last-of-type(2) {
+        display: grid;
+        padding-top: 3em;
+        margin-bottom: 1em;
     }
 
-    header nav:last-of-type>ul>li:nth-last-of-type(2) {
-        display: flex;
+    .list {
+        transform:translateY(9%);
+        margin-top: 5em;
+    }
+
+   
+    .homeImg {
+        width: 100%;
+    }
+
+
+    #grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    
+    
+    header>section {
+       
+       position: fixed;
+       display: grid;
+       margin-top: 30em;
+       width: 10em;
+       background-color: rgb(248, 250, 250);
+       margin-left: 3em;
+
+    }
+
+    header>section>img:first-of-type {
+       margin-bottom: 3em;
+       margin-top: -3em;
+     }
+
+     .header {
+         grid-column-start: 1;
+         grid-column-end: 2;
+         width: 227px;
+     }
+
+    .footer {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .wrap {
+        display: grid;
+        width: 90%;
+        grid-template-columns: 227px 1fr;
+        grid-auto-rows: minmax(min-content, max-content);
+        gap: 3rem;
+        margin-top: 3rem;
+        grid-template-areas: "header main" ". footer";
+    }
+
+    header>nav:first-of-type {
+        width: 227px;
+    }
+
+    header>nav:first-of-type>a>img {
+       width: 10em;
+       margin-bottom: 4em;
+
+    }
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    #grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1em;
     }
 }
 
